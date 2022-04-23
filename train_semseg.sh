@@ -1,0 +1,1 @@
+python train_semseg.py --model_name pointnet2

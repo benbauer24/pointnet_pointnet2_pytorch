@@ -1,0 +1,1 @@
+python train_clf.py --model_name pointnet2

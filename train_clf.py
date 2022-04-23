@@ -33,7 +33,8 @@ def parse_args():
 def main(args):
     '''HYPER PARAMETER'''
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
-    datapath = './data/ModelNet/'
+    # datapath = './data/ModelNet/'
+    datapath = "/media/bedad/DATA/ETS/Recherche/programmation/data/pointnet_pytorch/ModelNet40/"
 
     if args.rotation is not None:
         ROTATION = (int(args.rotation[0:2]),int(args.rotation[3:5]))

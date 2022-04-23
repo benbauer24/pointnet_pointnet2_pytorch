@@ -1,0 +1,1 @@
+python train_partseg.py --model_name pointnet2
