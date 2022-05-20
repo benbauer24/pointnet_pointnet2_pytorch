@@ -1,0 +1,6 @@
+2022-05-16 20:18:24,260 - pointnet2 - INFO - ---------------------------------------------------TRANING---------------------------------------------------
+2022-05-16 20:18:24,260 - pointnet2 - INFO - PARAMETER ...
+2022-05-16 20:18:24,260 - pointnet2 - INFO - Namespace(batchsize=32, decay_rate=0.0001, epoch=201, gpu='0', jitter=False, learning_rate=0.001, model_name='pointnet2', multi_gpu=None, optimizer='Adam', pretrain=None, step_size=20, workers=4)
+2022-05-16 20:18:25,304 - pointnet2 - INFO - The number of training data is:13998
+2022-05-16 20:18:25,304 - pointnet2 - INFO - The number of test data is:2874
+2022-05-16 20:18:25,317 - pointnet2 - INFO - Training from scratch
