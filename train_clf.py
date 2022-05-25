@@ -1,5 +1,6 @@
 import argparse
 import os
+import numpy as np
 import torch
 import torch.nn.parallel
 import torch.utils.data
@@ -26,7 +27,7 @@ def parse_args():
     parser.add_argument('--pretrain', type=str, default=None,help='whether use pretrain model')
     parser.add_argument('--decay_rate', type=float, default=1e-4, help='decay rate of learning rate')
     parser.add_argument('--rotation',  default=None, help='range of training rotation')
-    parser.add_argument('--model_name', default='pointnet2', help='range of training rotation')
+    parser.add_argument('--model_name', default='pointnet2', help='model name')
     parser.add_argument('--feature_transform', default=False, help="use feature transform in pointnet")
     return parser.parse_args()
 

@@ -11,7 +11,7 @@ import torch.nn.functional as F
 import datetime
 import logging
 from pathlib import Path
-from utils import test_semseg
+from utils import test_semseg, save_checkpoint
 from tqdm import tqdm
 from model.pointnet2 import PointNet2SemSeg
 from model.pointnet import PointNetSeg, feature_transform_reguliarzer
@@ -25,7 +25,7 @@ def parse_args():
     parser = argparse.ArgumentParser('PointNet')
     parser.add_argument('--batchsize', type=int, default=12, help='input batch size')
     parser.add_argument('--workers', type=int, default=4, help='number of data loading workers')
-    parser.add_argument('--epoch', type=int, default=20, help='number of epochs for training')
+    parser.add_argument('--epoch', type=int, default=6, help='number of epochs for training')
     parser.add_argument('--pretrain', type=str, default=None,help='whether use pretrain model')
     parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
     parser.add_argument('--learning_rate', type=float, default=0.001, help='learning rate for training')
