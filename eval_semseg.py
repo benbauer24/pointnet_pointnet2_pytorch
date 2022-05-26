@@ -22,13 +22,15 @@ seg_label_to_cat = {}
 for i,cat in enumerate(seg_classes.keys()):
     seg_label_to_cat[i] = cat
 
+checkpoint_file = "./experiment/pointnet2SemSeg-2022-05-26_05-29/checkpoints/pointnet2_004_0.8348.pth"
+
 def parse_args():
     '''PARAMETERS'''
     parser = argparse.ArgumentParser('PointConv')
     parser.add_argument('--batchsize', type=int, default=12, help='batch size')
     parser.add_argument('--workers', type=int, default=4, help='number of data loading workers')
     parser.add_argument('--gpu', type=str, default='0', help='specify gpu device')
-    parser.add_argument('--checkpoint', type=str, default=None, help='checkpoint')
+    parser.add_argument('--checkpoint', type=str, default=checkpoint_file, help='checkpoint')
     parser.add_argument('--multi_gpu', type=str, default=None, help='whether use multi gpu training')
     parser.add_argument('--model_name', type=str, default='pointnet2', help='Name of model')
     return parser.parse_args()
@@ -66,7 +68,7 @@ def main(args):
     logger.info('Load dataset ...')
     train_data, train_label, test_data, test_label = recognize_all_data(test_area=5)
     test_dataset = S3DISDataLoader(test_data, test_label)
-    testdataloader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batchsize,
+    testDataLoader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batchsize,
                                                  shuffle=True, num_workers=int(args.workers))
 
     '''MODEL LOADING'''
@@ -79,8 +81,9 @@ def main(args):
         print('Load CheckPoint...')
         logger.info('Load CheckPoint')
         checkpoint = torch.load(args.checkpoint)
-        start_epoch = checkpoint['epoch']
-        model.load_state_dict(checkpoint['model_state_dict'])
+        #start_epoch = checkpoint['epoch']
+        #model.load_state_dict(checkpoint['model_state_dict'])
+        model.load_state_dict(torch.load(checkpoint))
     else:
         print('Please load Checkpoint to eval...')
         sys.exit(0)
