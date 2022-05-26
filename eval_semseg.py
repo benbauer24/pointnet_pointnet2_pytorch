@@ -83,7 +83,7 @@ def main(args):
         checkpoint = torch.load(args.checkpoint)
         #start_epoch = checkpoint['epoch']
         #model.load_state_dict(checkpoint['model_state_dict'])
-        model.load_state_dict(torch.load(checkpoint))
+        model.load_state_dict(torch.load(args.checkpoint))
     else:
         print('Please load Checkpoint to eval...')
         sys.exit(0)
