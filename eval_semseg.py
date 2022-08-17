@@ -2,6 +2,7 @@ import argparse
 import os
 import sys
 import numpy as np
+import pandas as pd
 import torch
 import torch.nn.parallel
 import torch.utils.data
@@ -13,7 +14,7 @@ import datetime
 import logging
 from pathlib import Path
 from tqdm import tqdm
-from utils import test_semseg, save_checkpoint
+from utils import test_semseg, save_checkpoint, compute_cat_iou
 from model.pointnet2 import PointNet2SemSeg
 from model.pointnet import PointNetSeg, feature_transform_reguliarzer
 
@@ -103,9 +104,10 @@ def main(args):
     print('Start evaluating...')
 
     model = model.eval()
-    iou_tabel = np.zeros((len(catdict), 3))
+    iou_tabel = np.zeros((len(seg_label_to_cat), 3))
     metrics = defaultdict(lambda: list())
     hist_acc = []
+    pointnet2 = args.model_name == 'pointnet2'
     for batch_id, data in tqdm(enumerate(testDataLoader, 0), total=len(testDataLoader), smoothing=0.9):
         points, target = data
         batchsize, num_point, _ = points.size()
@@ -129,15 +131,15 @@ def main(args):
     metrics['iou'] = np.mean(iou_tabel[:, 2])
     print(metrics['accuracy'])
     iou_tabel = pd.DataFrame(iou_tabel, columns=['iou', 'count', 'mean_iou'])
-    iou_tabel['Category_IOU'] = [catdict[i] for i in range(len(catdict))]
+    iou_tabel['Category_IOU'] = [seg_label_to_cat[i] for i in range(len(seg_label_to_cat))]
     # print(iou_tabel)
     cat_iou = iou_tabel.groupby('Category_IOU')['mean_iou'].mean()
     print(cat_iou)
     logger.info(cat_iou)
 
     mean_iou = np.mean(cat_iou)
-    print('Total accuracy: %f  meanIOU: %f' % (test_metrics['accuracy'], mean_iou))
-    logger.info('Test accuracy: %f  meanIOU: %f' % (test_metrics['accuracy'], mean_iou))
+    print('Total accuracy: %f  meanIOU: %f' % (metrics['accuracy'], mean_iou))
+    logger.info('Test accuracy: %f  meanIOU: %f' % (metrics['accuracy'], mean_iou))
 
     logger.info('End of evaluation...')
 

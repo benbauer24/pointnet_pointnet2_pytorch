@@ -20,21 +20,21 @@ def loadDataFile(filename):
     return load_h5(filename)
 
 def recognize_all_data(test_area = 5):
-    # SLURM_PATH = os.getenv('SLURM_TMPDIR')
-    # data_path = os.path.join(SLURM_PATH, 'data/indoor3d_sem_seg_hdf5_data')
-    ALL_FILES = getDataFiles('./data/indoor3d_sem_seg_hdf5_data/all_files.txt')
-    # ALL_FILES = getDataFiles(os.path.join(data_path, 'all_files.txt'))
+    SLURM_PATH = os.getenv('SLURM_TMPDIR')
+    data_path = os.path.join(SLURM_PATH, 'data/indoor3d_sem_seg_hdf5_data')
+    # ALL_FILES = getDataFiles('./data/indoor3d_sem_seg_hdf5_data/all_files.txt')
+    ALL_FILES = getDataFiles(os.path.join(data_path, 'all_files.txt'))
     # ALL_FILES = getDataFiles('/media/bedad/DATA/ETS/Recherche/programmation/data/pointnet_pytorch/'
     #                          'indoor3d_sem_seg_hdf5_data/all_files.txt')
-    room_filelist = [line.rstrip() for line in open('./data/indoor3d_sem_seg_hdf5_data/room_filelist.txt')]
-    # room_filelist = [line.rstrip() for line in open(os.path.join(data_path, 'room_filelist.txt'))]
+    # room_filelist = [line.rstrip() for line in open('./data/indoor3d_sem_seg_hdf5_data/room_filelist.txt')]
+    room_filelist = [line.rstrip() for line in open(os.path.join(data_path, 'room_filelist.txt'))]
     # room_filelist = [line.rstrip() for line in open('/media/bedad/DATA/ETS/Recherche/programmation/data/'
     #                                                 'pointnet_pytorch/indoor3d_sem_seg_hdf5_data/room_filelist.txt')]
     data_batch_list = []
     label_batch_list = []
     for h5_filename in ALL_FILES:
-        # data_batch, label_batch = loadDataFile(os.path.join(SLURM_PATH, 'data', h5_filename))
-        data_batch, label_batch = loadDataFile('./data/' + h5_filename)
+        data_batch, label_batch = loadDataFile(os.path.join(SLURM_PATH, 'data', h5_filename))
+        # data_batch, label_batch = loadDataFile('./data/' + h5_filename)
         # data_batch, label_batch = loadDataFile('/media/bedad/DATA/ETS/Recherche/programmation/'
         #                                        'data/pointnet_pytorch/' + h5_filename)
         data_batch_list.append(data_batch)

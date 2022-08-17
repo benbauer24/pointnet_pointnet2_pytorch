@@ -1,0 +1,828 @@
+2022-06-21 19:23:01,374 - pointnet2 - INFO - ---------------------------------------------------TRANING---------------------------------------------------
+2022-06-21 19:23:01,375 - pointnet2 - INFO - PARAMETER ...
+2022-06-21 19:23:01,375 - pointnet2 - INFO - Namespace(batchsize=12, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, model_name='pointnet2', multi_gpu=None, optimizer='Adam', pretrain=None, workers=4)
+2022-06-21 19:23:41,471 - pointnet2 - INFO - Training from scratch
+2022-06-21 19:39:44,869 - pointnet2 - INFO - Epoch 0  test accuracy: 0.806448  meanIOU: 0.352400
+2022-06-21 19:39:45,789 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.000000
+bookcase    0.252745
+ceiling     0.902738
+chair       0.410831
+clutter     0.412970
+column      0.000000
+door        0.176042
+floor       0.928502
+sofa        0.000000
+table       0.599869
+wall        0.678388
+window      0.219109
+Name: mean_iou, dtype: float64
+2022-06-21 19:39:45,795 - pointnet2 - INFO - Save model..
+2022-06-21 19:39:45,797 - pointnet2 - INFO - Best accuracy is: 0.80645
+2022-06-21 19:39:45,797 - pointnet2 - INFO - Best meanIOU is: 0.35240
+2022-06-21 19:55:45,689 - pointnet2 - INFO - Epoch 1  test accuracy: 0.798075  meanIOU: 0.372127
+2022-06-21 19:55:45,716 - pointnet2 - INFO - Best accuracy is: 0.80645
+2022-06-21 19:55:45,716 - pointnet2 - INFO - Best meanIOU is: 0.37213
+2022-06-21 20:11:40,549 - pointnet2 - INFO - Epoch 2  test accuracy: 0.818379  meanIOU: 0.394473
+2022-06-21 20:11:40,765 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.258572
+bookcase    0.431560
+ceiling     0.900788
+chair       0.574645
+clutter     0.422179
+column      0.000000
+door        0.180176
+floor       0.946626
+sofa        0.001283
+table       0.516220
+wall        0.684928
+window      0.211178
+Name: mean_iou, dtype: float64
+2022-06-21 20:11:40,771 - pointnet2 - INFO - Save model..
+2022-06-21 20:11:40,772 - pointnet2 - INFO - Best accuracy is: 0.81838
+2022-06-21 20:11:40,772 - pointnet2 - INFO - Best meanIOU is: 0.39447
+2022-06-21 20:27:40,095 - pointnet2 - INFO - Epoch 3  test accuracy: 0.835394  meanIOU: 0.421214
+2022-06-21 20:27:40,767 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.397514
+bookcase    0.489326
+ceiling     0.898996
+chair       0.563184
+clutter     0.461545
+column      0.000250
+door        0.133683
+floor       0.960126
+sofa        0.000975
+table       0.573915
+wall        0.712710
+window      0.283559
+Name: mean_iou, dtype: float64
+2022-06-21 20:27:40,773 - pointnet2 - INFO - Save model..
+2022-06-21 20:27:40,774 - pointnet2 - INFO - Best accuracy is: 0.83539
+2022-06-21 20:27:40,774 - pointnet2 - INFO - Best meanIOU is: 0.42121
+2022-06-21 20:43:46,843 - pointnet2 - INFO - Epoch 4  test accuracy: 0.846452  meanIOU: 0.454421
+2022-06-21 20:43:47,183 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.248411
+bookcase    0.390825
+ceiling     0.914572
+chair       0.670857
+clutter     0.495910
+column      0.000000
+door        0.083526
+floor       0.960950
+sofa        0.320128
+table       0.666942
+wall        0.723164
+window      0.432188
+Name: mean_iou, dtype: float64
+2022-06-21 20:43:47,187 - pointnet2 - INFO - Save model..
+2022-06-21 20:43:47,189 - pointnet2 - INFO - Best accuracy is: 0.84645
+2022-06-21 20:43:47,189 - pointnet2 - INFO - Best meanIOU is: 0.45442
+2022-06-21 20:59:54,187 - pointnet2 - INFO - Epoch 5  test accuracy: 0.833062  meanIOU: 0.428706
+2022-06-21 20:59:54,206 - pointnet2 - INFO - Best accuracy is: 0.84645
+2022-06-21 20:59:54,206 - pointnet2 - INFO - Best meanIOU is: 0.45442
+2022-06-21 21:15:48,289 - pointnet2 - INFO - Epoch 6  test accuracy: 0.839026  meanIOU: 0.450663
+2022-06-21 21:15:48,315 - pointnet2 - INFO - Best accuracy is: 0.84645
+2022-06-21 21:15:48,315 - pointnet2 - INFO - Best meanIOU is: 0.45442
+2022-06-21 21:31:51,733 - pointnet2 - INFO - Epoch 7  test accuracy: 0.846270  meanIOU: 0.451689
+2022-06-21 21:31:51,828 - pointnet2 - INFO - Best accuracy is: 0.84645
+2022-06-21 21:31:51,829 - pointnet2 - INFO - Best meanIOU is: 0.45442
+2022-06-21 21:47:43,653 - pointnet2 - INFO - Epoch 8  test accuracy: 0.849118  meanIOU: 0.478441
+2022-06-21 21:47:43,910 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.323726
+bookcase    0.542315
+ceiling     0.912302
+chair       0.716396
+clutter     0.480960
+column      0.015271
+door        0.211695
+floor       0.959311
+sofa        0.289192
+table       0.630608
+wall        0.693619
+window      0.444338
+Name: mean_iou, dtype: float64
+2022-06-21 21:47:43,914 - pointnet2 - INFO - Save model..
+2022-06-21 21:47:43,916 - pointnet2 - INFO - Best accuracy is: 0.84912
+2022-06-21 21:47:43,916 - pointnet2 - INFO - Best meanIOU is: 0.47844
+2022-06-21 22:03:41,866 - pointnet2 - INFO - Epoch 9  test accuracy: 0.845278  meanIOU: 0.450644
+2022-06-21 22:03:41,881 - pointnet2 - INFO - Best accuracy is: 0.84912
+2022-06-21 22:03:41,881 - pointnet2 - INFO - Best meanIOU is: 0.47844
+2022-06-21 22:19:47,771 - pointnet2 - INFO - Epoch 10  test accuracy: 0.848482  meanIOU: 0.458624
+2022-06-21 22:19:47,796 - pointnet2 - INFO - Best accuracy is: 0.84912
+2022-06-21 22:19:47,796 - pointnet2 - INFO - Best meanIOU is: 0.47844
+2022-06-21 22:35:53,037 - pointnet2 - INFO - Epoch 11  test accuracy: 0.851255  meanIOU: 0.466123
+2022-06-21 22:35:53,376 - pointnet2 - INFO - Category_IOU
+beam        0.003081
+board       0.488769
+bookcase    0.498596
+ceiling     0.913273
+chair       0.715894
+clutter     0.500170
+column      0.002462
+door        0.228325
+floor       0.961300
+sofa        0.083555
+table       0.622455
+wall        0.725045
+window      0.316676
+Name: mean_iou, dtype: float64
+2022-06-21 22:35:53,381 - pointnet2 - INFO - Save model..
+2022-06-21 22:35:53,382 - pointnet2 - INFO - Best accuracy is: 0.85125
+2022-06-21 22:35:53,382 - pointnet2 - INFO - Best meanIOU is: 0.47844
+2022-06-21 22:51:55,656 - pointnet2 - INFO - Epoch 12  test accuracy: 0.850022  meanIOU: 0.492981
+2022-06-21 22:51:55,677 - pointnet2 - INFO - Best accuracy is: 0.85125
+2022-06-21 22:51:55,677 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-21 23:08:07,828 - pointnet2 - INFO - Epoch 13  test accuracy: 0.846355  meanIOU: 0.452890
+2022-06-21 23:08:07,850 - pointnet2 - INFO - Best accuracy is: 0.85125
+2022-06-21 23:08:07,850 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-21 23:24:12,704 - pointnet2 - INFO - Epoch 14  test accuracy: 0.857086  meanIOU: 0.478655
+2022-06-21 23:24:12,988 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.304268
+bookcase    0.439851
+ceiling     0.912473
+chair       0.703213
+clutter     0.537034
+column      0.040912
+door        0.204303
+floor       0.964147
+sofa        0.243113
+table       0.672469
+wall        0.735527
+window      0.465201
+Name: mean_iou, dtype: float64
+2022-06-21 23:24:12,994 - pointnet2 - INFO - Save model..
+2022-06-21 23:24:12,995 - pointnet2 - INFO - Best accuracy is: 0.85709
+2022-06-21 23:24:12,995 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-21 23:40:07,970 - pointnet2 - INFO - Epoch 15  test accuracy: 0.848681  meanIOU: 0.476390
+2022-06-21 23:40:08,001 - pointnet2 - INFO - Best accuracy is: 0.85709
+2022-06-21 23:40:08,001 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-21 23:56:07,864 - pointnet2 - INFO - Epoch 16  test accuracy: 0.852941  meanIOU: 0.478469
+2022-06-21 23:56:07,883 - pointnet2 - INFO - Best accuracy is: 0.85709
+2022-06-21 23:56:07,883 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-22 00:12:01,094 - pointnet2 - INFO - Epoch 17  test accuracy: 0.856236  meanIOU: 0.491244
+2022-06-22 00:12:01,109 - pointnet2 - INFO - Best accuracy is: 0.85709
+2022-06-22 00:12:01,109 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-22 00:28:23,104 - pointnet2 - INFO - Epoch 18  test accuracy: 0.852713  meanIOU: 0.477526
+2022-06-22 00:28:23,127 - pointnet2 - INFO - Best accuracy is: 0.85709
+2022-06-22 00:28:23,127 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-22 00:44:27,068 - pointnet2 - INFO - Epoch 19  test accuracy: 0.857226  meanIOU: 0.481694
+2022-06-22 00:44:27,595 - pointnet2 - INFO - Category_IOU
+beam        0.002613
+board       0.353054
+bookcase    0.430273
+ceiling     0.921948
+chair       0.722303
+clutter     0.525600
+column      0.101328
+door        0.231783
+floor       0.963566
+sofa        0.189280
+table       0.686305
+wall        0.734330
+window      0.399645
+Name: mean_iou, dtype: float64
+2022-06-22 00:44:27,600 - pointnet2 - INFO - Save model..
+2022-06-22 00:44:27,602 - pointnet2 - INFO - Best accuracy is: 0.85723
+2022-06-22 00:44:27,602 - pointnet2 - INFO - Best meanIOU is: 0.49298
+2022-06-22 01:00:25,923 - pointnet2 - INFO - Epoch 20  test accuracy: 0.859254  meanIOU: 0.497064
+2022-06-22 01:00:26,168 - pointnet2 - INFO - Category_IOU
+beam        0.003415
+board       0.437317
+bookcase    0.465981
+ceiling     0.914389
+chair       0.686702
+clutter     0.557751
+column      0.106390
+door        0.168946
+floor       0.961341
+sofa        0.278280
+table       0.659513
+wall        0.734959
+window      0.486851
+Name: mean_iou, dtype: float64
+2022-06-22 01:00:26,173 - pointnet2 - INFO - Save model..
+2022-06-22 01:00:26,174 - pointnet2 - INFO - Best accuracy is: 0.85925
+2022-06-22 01:00:26,174 - pointnet2 - INFO - Best meanIOU is: 0.49706
+2022-06-22 01:16:46,057 - pointnet2 - INFO - Epoch 21  test accuracy: 0.859790  meanIOU: 0.499448
+2022-06-22 01:16:46,266 - pointnet2 - INFO - Category_IOU
+beam        0.011612
+board       0.419767
+bookcase    0.493135
+ceiling     0.911286
+chair       0.736364
+clutter     0.544964
+column      0.107941
+door        0.168698
+floor       0.959783
+sofa        0.293952
+table       0.655850
+wall        0.740382
+window      0.449091
+Name: mean_iou, dtype: float64
+2022-06-22 01:16:46,270 - pointnet2 - INFO - Save model..
+2022-06-22 01:16:46,271 - pointnet2 - INFO - Best accuracy is: 0.85979
+2022-06-22 01:16:46,271 - pointnet2 - INFO - Best meanIOU is: 0.49945
+2022-06-22 01:32:56,095 - pointnet2 - INFO - Epoch 22  test accuracy: 0.867676  meanIOU: 0.507110
+2022-06-22 01:32:56,395 - pointnet2 - INFO - Category_IOU
+beam        0.010587
+board       0.427255
+bookcase    0.511947
+ceiling     0.924679
+chair       0.764760
+clutter     0.549014
+column      0.166174
+door        0.252059
+floor       0.964540
+sofa        0.187308
+table       0.703404
+wall        0.737460
+window      0.393238
+Name: mean_iou, dtype: float64
+2022-06-22 01:32:56,399 - pointnet2 - INFO - Save model..
+2022-06-22 01:32:56,401 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 01:32:56,401 - pointnet2 - INFO - Best meanIOU is: 0.50711
+2022-06-22 01:48:56,602 - pointnet2 - INFO - Epoch 23  test accuracy: 0.863458  meanIOU: 0.512063
+2022-06-22 01:48:56,633 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 01:48:56,634 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 02:04:52,925 - pointnet2 - INFO - Epoch 24  test accuracy: 0.861536  meanIOU: 0.484451
+2022-06-22 02:04:52,971 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 02:04:52,971 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 02:20:56,134 - pointnet2 - INFO - Epoch 25  test accuracy: 0.865153  meanIOU: 0.505680
+2022-06-22 02:20:56,173 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 02:20:56,173 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 02:37:05,775 - pointnet2 - INFO - Epoch 26  test accuracy: 0.866082  meanIOU: 0.496138
+2022-06-22 02:37:05,828 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 02:37:05,829 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 02:53:11,477 - pointnet2 - INFO - Epoch 27  test accuracy: 0.864023  meanIOU: 0.494787
+2022-06-22 02:53:11,508 - pointnet2 - INFO - Best accuracy is: 0.86768
+2022-06-22 02:53:11,508 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 03:09:25,701 - pointnet2 - INFO - Epoch 28  test accuracy: 0.870174  meanIOU: 0.506966
+2022-06-22 03:09:25,918 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.439675
+bookcase    0.552261
+ceiling     0.920951
+chair       0.731015
+clutter     0.560242
+column      0.063268
+door        0.138907
+floor       0.963318
+sofa        0.318721
+table       0.691994
+wall        0.749532
+window      0.460668
+Name: mean_iou, dtype: float64
+2022-06-22 03:09:25,922 - pointnet2 - INFO - Save model..
+2022-06-22 03:09:25,923 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 03:09:25,923 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 03:25:43,055 - pointnet2 - INFO - Epoch 29  test accuracy: 0.866066  meanIOU: 0.503404
+2022-06-22 03:25:43,062 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 03:25:43,063 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 03:41:58,713 - pointnet2 - INFO - Epoch 30  test accuracy: 0.865371  meanIOU: 0.508868
+2022-06-22 03:41:58,723 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 03:41:58,724 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 03:57:52,824 - pointnet2 - INFO - Epoch 31  test accuracy: 0.861494  meanIOU: 0.504171
+2022-06-22 03:57:52,855 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 03:57:52,855 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 04:14:04,351 - pointnet2 - INFO - Epoch 32  test accuracy: 0.863049  meanIOU: 0.504692
+2022-06-22 04:14:04,396 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 04:14:04,396 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 04:30:12,657 - pointnet2 - INFO - Epoch 33  test accuracy: 0.861563  meanIOU: 0.507201
+2022-06-22 04:30:12,680 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 04:30:12,680 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 04:46:41,105 - pointnet2 - INFO - Epoch 34  test accuracy: 0.864933  meanIOU: 0.498077
+2022-06-22 04:46:41,129 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 04:46:41,129 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 05:03:07,439 - pointnet2 - INFO - Epoch 35  test accuracy: 0.862880  meanIOU: 0.497950
+2022-06-22 05:03:07,452 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 05:03:07,452 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 05:19:19,661 - pointnet2 - INFO - Epoch 36  test accuracy: 0.859756  meanIOU: 0.496396
+2022-06-22 05:19:19,748 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 05:19:19,748 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 05:35:47,118 - pointnet2 - INFO - Epoch 37  test accuracy: 0.860281  meanIOU: 0.494889
+2022-06-22 05:35:47,160 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 05:35:47,160 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 05:52:03,163 - pointnet2 - INFO - Epoch 38  test accuracy: 0.862417  meanIOU: 0.503897
+2022-06-22 05:52:03,191 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 05:52:03,191 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 06:08:07,113 - pointnet2 - INFO - Epoch 39  test accuracy: 0.865388  meanIOU: 0.508643
+2022-06-22 06:08:07,144 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 06:08:07,144 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 06:24:11,024 - pointnet2 - INFO - Epoch 40  test accuracy: 0.865355  meanIOU: 0.489981
+2022-06-22 06:24:11,028 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 06:24:11,028 - pointnet2 - INFO - Best meanIOU is: 0.51206
+2022-06-22 06:40:16,241 - pointnet2 - INFO - Epoch 41  test accuracy: 0.867950  meanIOU: 0.524550
+2022-06-22 06:40:16,277 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 06:40:16,277 - pointnet2 - INFO - Best meanIOU is: 0.52455
+2022-06-22 06:56:22,584 - pointnet2 - INFO - Epoch 42  test accuracy: 0.866262  meanIOU: 0.510796
+2022-06-22 06:56:22,607 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 06:56:22,607 - pointnet2 - INFO - Best meanIOU is: 0.52455
+2022-06-22 07:12:33,471 - pointnet2 - INFO - Epoch 43  test accuracy: 0.866574  meanIOU: 0.509096
+2022-06-22 07:12:33,493 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 07:12:33,493 - pointnet2 - INFO - Best meanIOU is: 0.52455
+2022-06-22 07:28:48,778 - pointnet2 - INFO - Epoch 44  test accuracy: 0.868744  meanIOU: 0.517532
+2022-06-22 07:28:48,813 - pointnet2 - INFO - Best accuracy is: 0.87017
+2022-06-22 07:28:48,814 - pointnet2 - INFO - Best meanIOU is: 0.52455
+2022-06-22 07:45:04,624 - pointnet2 - INFO - Epoch 45  test accuracy: 0.871723  meanIOU: 0.529931
+2022-06-22 07:45:04,882 - pointnet2 - INFO - Category_IOU
+beam        0.000428
+board       0.437449
+bookcase    0.564937
+ceiling     0.917750
+chair       0.767027
+clutter     0.541947
+column      0.138279
+door        0.298282
+floor       0.965924
+sofa        0.339379
+table       0.713422
+wall        0.758380
+window      0.445896
+Name: mean_iou, dtype: float64
+2022-06-22 07:45:04,887 - pointnet2 - INFO - Save model..
+2022-06-22 07:45:04,888 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 07:45:04,888 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 08:01:14,859 - pointnet2 - INFO - Epoch 46  test accuracy: 0.864832  meanIOU: 0.508752
+2022-06-22 08:01:14,892 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 08:01:14,892 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 08:17:32,426 - pointnet2 - INFO - Epoch 47  test accuracy: 0.864034  meanIOU: 0.511852
+2022-06-22 08:17:32,449 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 08:17:32,449 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 08:33:57,353 - pointnet2 - INFO - Epoch 48  test accuracy: 0.871070  meanIOU: 0.526810
+2022-06-22 08:33:57,372 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 08:33:57,372 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 08:50:06,352 - pointnet2 - INFO - Epoch 49  test accuracy: 0.864748  meanIOU: 0.505366
+2022-06-22 08:50:06,382 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 08:50:06,382 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 09:06:31,334 - pointnet2 - INFO - Epoch 50  test accuracy: 0.868008  meanIOU: 0.524573
+2022-06-22 09:06:31,352 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 09:06:31,353 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 09:22:38,872 - pointnet2 - INFO - Epoch 51  test accuracy: 0.863786  meanIOU: 0.510453
+2022-06-22 09:22:38,937 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 09:22:38,937 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 09:38:52,554 - pointnet2 - INFO - Epoch 52  test accuracy: 0.863473  meanIOU: 0.502644
+2022-06-22 09:38:52,592 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 09:38:52,592 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 09:55:11,242 - pointnet2 - INFO - Epoch 53  test accuracy: 0.855105  meanIOU: 0.504854
+2022-06-22 09:55:11,274 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 09:55:11,275 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 10:11:32,270 - pointnet2 - INFO - Epoch 54  test accuracy: 0.861485  meanIOU: 0.502656
+2022-06-22 10:11:32,312 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 10:11:32,313 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 10:27:32,130 - pointnet2 - INFO - Epoch 55  test accuracy: 0.862094  meanIOU: 0.514553
+2022-06-22 10:27:32,147 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 10:27:32,147 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 10:43:37,386 - pointnet2 - INFO - Epoch 56  test accuracy: 0.861271  meanIOU: 0.512551
+2022-06-22 10:43:37,447 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 10:43:37,447 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 10:59:44,294 - pointnet2 - INFO - Epoch 57  test accuracy: 0.865712  meanIOU: 0.519892
+2022-06-22 10:59:44,348 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 10:59:44,348 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 11:15:50,098 - pointnet2 - INFO - Epoch 58  test accuracy: 0.867437  meanIOU: 0.513267
+2022-06-22 11:15:50,139 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 11:15:50,139 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 11:31:55,622 - pointnet2 - INFO - Epoch 59  test accuracy: 0.867006  meanIOU: 0.512102
+2022-06-22 11:31:55,693 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 11:31:55,694 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 11:48:01,646 - pointnet2 - INFO - Epoch 60  test accuracy: 0.863593  meanIOU: 0.524241
+2022-06-22 11:48:01,711 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 11:48:01,711 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 12:04:11,512 - pointnet2 - INFO - Epoch 61  test accuracy: 0.867608  meanIOU: 0.520416
+2022-06-22 12:04:11,723 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 12:04:11,723 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 12:20:16,252 - pointnet2 - INFO - Epoch 62  test accuracy: 0.865380  meanIOU: 0.518905
+2022-06-22 12:20:16,314 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 12:20:16,314 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 12:36:13,165 - pointnet2 - INFO - Epoch 63  test accuracy: 0.861939  meanIOU: 0.512340
+2022-06-22 12:36:13,190 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 12:36:13,190 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 12:52:18,566 - pointnet2 - INFO - Epoch 64  test accuracy: 0.866370  meanIOU: 0.522482
+2022-06-22 12:52:18,614 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 12:52:18,615 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 13:08:30,016 - pointnet2 - INFO - Epoch 65  test accuracy: 0.866906  meanIOU: 0.519303
+2022-06-22 13:08:30,066 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 13:08:30,067 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 13:24:37,465 - pointnet2 - INFO - Epoch 66  test accuracy: 0.862646  meanIOU: 0.516703
+2022-06-22 13:24:37,499 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 13:24:37,500 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 13:40:41,268 - pointnet2 - INFO - Epoch 67  test accuracy: 0.867529  meanIOU: 0.513441
+2022-06-22 13:40:41,306 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 13:40:41,306 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 13:56:53,929 - pointnet2 - INFO - Epoch 68  test accuracy: 0.868400  meanIOU: 0.520130
+2022-06-22 13:56:54,005 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 13:56:54,006 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 14:13:19,715 - pointnet2 - INFO - Epoch 69  test accuracy: 0.870567  meanIOU: 0.528764
+2022-06-22 14:13:19,767 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 14:13:19,767 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 14:29:45,263 - pointnet2 - INFO - Epoch 70  test accuracy: 0.864148  meanIOU: 0.522307
+2022-06-22 14:29:45,331 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 14:29:45,332 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 14:45:56,734 - pointnet2 - INFO - Epoch 71  test accuracy: 0.867909  meanIOU: 0.514648
+2022-06-22 14:45:56,773 - pointnet2 - INFO - Best accuracy is: 0.87172
+2022-06-22 14:45:56,773 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 15:02:29,537 - pointnet2 - INFO - Epoch 72  test accuracy: 0.872233  meanIOU: 0.518651
+2022-06-22 15:02:29,884 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.499791
+bookcase    0.540580
+ceiling     0.923965
+chair       0.770863
+clutter     0.548601
+column      0.114724
+door        0.272597
+floor       0.964926
+sofa        0.219743
+table       0.689339
+wall        0.763147
+window      0.434188
+Name: mean_iou, dtype: float64
+2022-06-22 15:02:29,896 - pointnet2 - INFO - Save model..
+2022-06-22 15:02:29,897 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 15:02:29,897 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 15:18:39,931 - pointnet2 - INFO - Epoch 73  test accuracy: 0.867761  meanIOU: 0.515714
+2022-06-22 15:18:39,982 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 15:18:39,982 - pointnet2 - INFO - Best meanIOU is: 0.52993
+2022-06-22 15:34:46,541 - pointnet2 - INFO - Epoch 74  test accuracy: 0.866544  meanIOU: 0.531810
+2022-06-22 15:34:46,564 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 15:34:46,564 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 15:51:05,418 - pointnet2 - INFO - Epoch 75  test accuracy: 0.867379  meanIOU: 0.519140
+2022-06-22 15:51:05,453 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 15:51:05,454 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 16:07:25,485 - pointnet2 - INFO - Epoch 76  test accuracy: 0.868216  meanIOU: 0.525623
+2022-06-22 16:07:25,528 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 16:07:25,528 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 16:23:32,293 - pointnet2 - INFO - Epoch 77  test accuracy: 0.863604  meanIOU: 0.523420
+2022-06-22 16:23:32,301 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 16:23:32,302 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 16:39:59,137 - pointnet2 - INFO - Epoch 78  test accuracy: 0.863981  meanIOU: 0.525400
+2022-06-22 16:39:59,188 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 16:39:59,189 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 16:56:05,527 - pointnet2 - INFO - Epoch 79  test accuracy: 0.868063  meanIOU: 0.526360
+2022-06-22 16:56:05,533 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 16:56:05,533 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 17:12:19,704 - pointnet2 - INFO - Epoch 80  test accuracy: 0.868425  meanIOU: 0.525212
+2022-06-22 17:12:19,733 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 17:12:19,734 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 17:28:55,922 - pointnet2 - INFO - Epoch 81  test accuracy: 0.872059  meanIOU: 0.531353
+2022-06-22 17:28:55,943 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 17:28:55,943 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 17:45:06,378 - pointnet2 - INFO - Epoch 82  test accuracy: 0.869606  meanIOU: 0.527539
+2022-06-22 17:45:06,403 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 17:45:06,403 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 18:01:22,183 - pointnet2 - INFO - Epoch 83  test accuracy: 0.869756  meanIOU: 0.517646
+2022-06-22 18:01:22,240 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 18:01:22,240 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 18:17:44,177 - pointnet2 - INFO - Epoch 84  test accuracy: 0.868497  meanIOU: 0.520600
+2022-06-22 18:17:44,192 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 18:17:44,193 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 18:34:34,900 - pointnet2 - INFO - Epoch 85  test accuracy: 0.869954  meanIOU: 0.522290
+2022-06-22 18:34:34,940 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 18:34:34,940 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 18:51:20,015 - pointnet2 - INFO - Epoch 86  test accuracy: 0.869810  meanIOU: 0.526308
+2022-06-22 18:51:20,032 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 18:51:20,032 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 19:08:01,556 - pointnet2 - INFO - Epoch 87  test accuracy: 0.869866  meanIOU: 0.520315
+2022-06-22 19:08:01,595 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 19:08:01,596 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 19:24:43,963 - pointnet2 - INFO - Epoch 88  test accuracy: 0.869233  meanIOU: 0.522604
+2022-06-22 19:24:43,970 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 19:24:43,971 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 19:41:21,026 - pointnet2 - INFO - Epoch 89  test accuracy: 0.867674  meanIOU: 0.517632
+2022-06-22 19:41:21,057 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 19:41:21,057 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 19:58:04,900 - pointnet2 - INFO - Epoch 90  test accuracy: 0.868061  meanIOU: 0.518178
+2022-06-22 19:58:04,927 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 19:58:04,928 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 20:14:45,779 - pointnet2 - INFO - Epoch 91  test accuracy: 0.867802  meanIOU: 0.519416
+2022-06-22 20:14:45,831 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 20:14:45,831 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 20:31:20,244 - pointnet2 - INFO - Epoch 92  test accuracy: 0.867605  meanIOU: 0.524543
+2022-06-22 20:31:20,269 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 20:31:20,269 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 20:48:24,989 - pointnet2 - INFO - Epoch 93  test accuracy: 0.869324  meanIOU: 0.517556
+2022-06-22 20:48:25,030 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 20:48:25,030 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 21:05:00,842 - pointnet2 - INFO - Epoch 94  test accuracy: 0.868864  meanIOU: 0.513316
+2022-06-22 21:05:00,859 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 21:05:00,859 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 21:21:40,417 - pointnet2 - INFO - Epoch 95  test accuracy: 0.866269  meanIOU: 0.517693
+2022-06-22 21:21:40,474 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 21:21:40,474 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 21:38:27,747 - pointnet2 - INFO - Epoch 96  test accuracy: 0.868880  meanIOU: 0.521646
+2022-06-22 21:38:27,773 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 21:38:27,773 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 21:55:15,734 - pointnet2 - INFO - Epoch 97  test accuracy: 0.870045  meanIOU: 0.523219
+2022-06-22 21:55:15,750 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 21:55:15,750 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 22:11:38,516 - pointnet2 - INFO - Epoch 98  test accuracy: 0.868386  meanIOU: 0.522817
+2022-06-22 22:11:38,597 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 22:11:38,597 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 22:27:53,726 - pointnet2 - INFO - Epoch 99  test accuracy: 0.868548  meanIOU: 0.516282
+2022-06-22 22:27:53,760 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 22:27:53,760 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 22:44:06,038 - pointnet2 - INFO - Epoch 100  test accuracy: 0.867895  meanIOU: 0.514727
+2022-06-22 22:44:06,076 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 22:44:06,077 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 23:00:49,627 - pointnet2 - INFO - Epoch 101  test accuracy: 0.868557  meanIOU: 0.517297
+2022-06-22 23:00:49,669 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 23:00:49,669 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 23:17:36,560 - pointnet2 - INFO - Epoch 102  test accuracy: 0.868359  meanIOU: 0.523263
+2022-06-22 23:17:36,978 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 23:17:36,979 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 23:34:26,569 - pointnet2 - INFO - Epoch 103  test accuracy: 0.869297  meanIOU: 0.518392
+2022-06-22 23:34:26,613 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 23:34:26,614 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-22 23:51:12,361 - pointnet2 - INFO - Epoch 104  test accuracy: 0.868987  meanIOU: 0.519533
+2022-06-22 23:51:12,408 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-22 23:51:12,408 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 00:08:07,353 - pointnet2 - INFO - Epoch 105  test accuracy: 0.870081  meanIOU: 0.527381
+2022-06-23 00:08:07,378 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 00:08:07,379 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 00:25:04,735 - pointnet2 - INFO - Epoch 106  test accuracy: 0.870539  meanIOU: 0.523852
+2022-06-23 00:25:04,755 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 00:25:04,755 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 00:42:16,664 - pointnet2 - INFO - Epoch 107  test accuracy: 0.869630  meanIOU: 0.521655
+2022-06-23 00:42:16,708 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 00:42:16,708 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 00:58:53,189 - pointnet2 - INFO - Epoch 108  test accuracy: 0.868366  meanIOU: 0.517602
+2022-06-23 00:58:53,235 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 00:58:53,235 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 01:15:50,032 - pointnet2 - INFO - Epoch 109  test accuracy: 0.868982  meanIOU: 0.519233
+2022-06-23 01:15:50,103 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 01:15:50,103 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 01:32:27,523 - pointnet2 - INFO - Epoch 110  test accuracy: 0.868424  meanIOU: 0.522112
+2022-06-23 01:32:27,549 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 01:32:27,549 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 01:49:26,772 - pointnet2 - INFO - Epoch 111  test accuracy: 0.867724  meanIOU: 0.520243
+2022-06-23 01:49:26,815 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 01:49:26,815 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 02:06:08,697 - pointnet2 - INFO - Epoch 112  test accuracy: 0.871518  meanIOU: 0.524569
+2022-06-23 02:06:08,705 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 02:06:08,706 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 02:22:58,885 - pointnet2 - INFO - Epoch 113  test accuracy: 0.869279  meanIOU: 0.519867
+2022-06-23 02:22:58,905 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 02:22:58,906 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 02:39:38,280 - pointnet2 - INFO - Epoch 114  test accuracy: 0.868242  meanIOU: 0.515724
+2022-06-23 02:39:38,301 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 02:39:38,301 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 02:56:20,529 - pointnet2 - INFO - Epoch 115  test accuracy: 0.869480  meanIOU: 0.520411
+2022-06-23 02:56:20,550 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 02:56:20,550 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 03:13:02,854 - pointnet2 - INFO - Epoch 116  test accuracy: 0.870073  meanIOU: 0.517968
+2022-06-23 03:13:02,898 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 03:13:02,898 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 03:29:48,969 - pointnet2 - INFO - Epoch 117  test accuracy: 0.867989  meanIOU: 0.522111
+2022-06-23 03:29:48,999 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 03:29:49,000 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 03:46:25,343 - pointnet2 - INFO - Epoch 118  test accuracy: 0.869764  meanIOU: 0.526210
+2022-06-23 03:46:25,379 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 03:46:25,380 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 04:02:56,618 - pointnet2 - INFO - Epoch 119  test accuracy: 0.870142  meanIOU: 0.526554
+2022-06-23 04:02:56,653 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 04:02:56,653 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 04:19:30,596 - pointnet2 - INFO - Epoch 120  test accuracy: 0.868690  meanIOU: 0.518844
+2022-06-23 04:19:30,639 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 04:19:30,639 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 04:36:10,003 - pointnet2 - INFO - Epoch 121  test accuracy: 0.869040  meanIOU: 0.523236
+2022-06-23 04:36:10,025 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 04:36:10,025 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 04:52:37,924 - pointnet2 - INFO - Epoch 122  test accuracy: 0.869281  meanIOU: 0.519461
+2022-06-23 04:52:37,952 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 04:52:37,952 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 05:09:10,192 - pointnet2 - INFO - Epoch 123  test accuracy: 0.870717  meanIOU: 0.526838
+2022-06-23 05:09:10,223 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 05:09:10,223 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 05:25:31,804 - pointnet2 - INFO - Epoch 124  test accuracy: 0.871463  meanIOU: 0.524082
+2022-06-23 05:25:31,832 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 05:25:31,832 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 05:42:24,254 - pointnet2 - INFO - Epoch 125  test accuracy: 0.870043  meanIOU: 0.521088
+2022-06-23 05:42:24,262 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 05:42:24,262 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 05:58:55,964 - pointnet2 - INFO - Epoch 126  test accuracy: 0.868802  meanIOU: 0.519269
+2022-06-23 05:58:55,970 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 05:58:55,970 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 06:15:42,721 - pointnet2 - INFO - Epoch 127  test accuracy: 0.871081  meanIOU: 0.525142
+2022-06-23 06:15:42,743 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 06:15:42,744 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 06:32:54,206 - pointnet2 - INFO - Epoch 128  test accuracy: 0.868965  meanIOU: 0.521083
+2022-06-23 06:32:54,260 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 06:32:54,261 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 06:49:37,385 - pointnet2 - INFO - Epoch 129  test accuracy: 0.870910  meanIOU: 0.517396
+2022-06-23 06:49:37,405 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 06:49:37,405 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 07:06:29,520 - pointnet2 - INFO - Epoch 130  test accuracy: 0.868333  meanIOU: 0.520555
+2022-06-23 07:06:29,579 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 07:06:29,579 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 07:23:21,165 - pointnet2 - INFO - Epoch 131  test accuracy: 0.870777  meanIOU: 0.523027
+2022-06-23 07:23:21,203 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 07:23:21,203 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 07:40:10,708 - pointnet2 - INFO - Epoch 132  test accuracy: 0.869417  meanIOU: 0.522868
+2022-06-23 07:40:10,747 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 07:40:10,747 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 07:56:55,630 - pointnet2 - INFO - Epoch 133  test accuracy: 0.869609  meanIOU: 0.521679
+2022-06-23 07:56:55,689 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 07:56:55,689 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 08:14:24,091 - pointnet2 - INFO - Epoch 134  test accuracy: 0.869877  meanIOU: 0.523242
+2022-06-23 08:14:24,120 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 08:14:24,120 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 08:32:04,189 - pointnet2 - INFO - Epoch 135  test accuracy: 0.867520  meanIOU: 0.521056
+2022-06-23 08:32:04,218 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 08:32:04,219 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 08:49:06,001 - pointnet2 - INFO - Epoch 136  test accuracy: 0.869990  meanIOU: 0.522956
+2022-06-23 08:49:06,036 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 08:49:06,036 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 09:06:17,605 - pointnet2 - INFO - Epoch 137  test accuracy: 0.870504  meanIOU: 0.522850
+2022-06-23 09:06:17,617 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 09:06:17,617 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 09:23:10,019 - pointnet2 - INFO - Epoch 138  test accuracy: 0.869758  meanIOU: 0.519645
+2022-06-23 09:23:10,071 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 09:23:10,072 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 09:40:17,390 - pointnet2 - INFO - Epoch 139  test accuracy: 0.869356  meanIOU: 0.526689
+2022-06-23 09:40:17,444 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 09:40:17,444 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 09:57:10,604 - pointnet2 - INFO - Epoch 140  test accuracy: 0.869606  meanIOU: 0.519226
+2022-06-23 09:57:10,680 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 09:57:10,680 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 10:14:31,212 - pointnet2 - INFO - Epoch 141  test accuracy: 0.869560  meanIOU: 0.523655
+2022-06-23 10:14:31,217 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 10:14:31,217 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 10:31:27,411 - pointnet2 - INFO - Epoch 142  test accuracy: 0.872051  meanIOU: 0.529263
+2022-06-23 10:31:27,422 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 10:31:27,423 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 10:48:01,287 - pointnet2 - INFO - Epoch 143  test accuracy: 0.869308  meanIOU: 0.524042
+2022-06-23 10:48:01,313 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 10:48:01,313 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 11:06:12,612 - pointnet2 - INFO - Epoch 144  test accuracy: 0.868788  meanIOU: 0.521042
+2022-06-23 11:06:12,620 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 11:06:12,621 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 11:25:51,545 - pointnet2 - INFO - Epoch 145  test accuracy: 0.869265  meanIOU: 0.520109
+2022-06-23 11:25:51,574 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 11:25:51,574 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 11:43:01,682 - pointnet2 - INFO - Epoch 146  test accuracy: 0.869141  meanIOU: 0.525623
+2022-06-23 11:43:01,722 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 11:43:01,722 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 11:59:50,700 - pointnet2 - INFO - Epoch 147  test accuracy: 0.871296  meanIOU: 0.524324
+2022-06-23 11:59:50,711 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 11:59:50,712 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 12:17:25,845 - pointnet2 - INFO - Epoch 148  test accuracy: 0.869455  meanIOU: 0.516459
+2022-06-23 12:17:25,884 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 12:17:25,884 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 12:36:08,046 - pointnet2 - INFO - Epoch 149  test accuracy: 0.869458  meanIOU: 0.518537
+2022-06-23 12:36:08,073 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 12:36:08,073 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 12:54:38,822 - pointnet2 - INFO - Epoch 150  test accuracy: 0.868834  meanIOU: 0.520541
+2022-06-23 12:54:38,848 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 12:54:38,849 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 13:11:18,428 - pointnet2 - INFO - Epoch 151  test accuracy: 0.870161  meanIOU: 0.523372
+2022-06-23 13:11:18,441 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 13:11:18,441 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 13:28:32,334 - pointnet2 - INFO - Epoch 152  test accuracy: 0.868104  meanIOU: 0.527696
+2022-06-23 13:28:32,385 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 13:28:32,385 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 13:45:06,863 - pointnet2 - INFO - Epoch 153  test accuracy: 0.870440  meanIOU: 0.523055
+2022-06-23 13:45:06,871 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 13:45:06,872 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 14:04:17,012 - pointnet2 - INFO - Epoch 154  test accuracy: 0.869161  meanIOU: 0.522721
+2022-06-23 14:04:17,039 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 14:04:17,039 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 14:20:40,432 - pointnet2 - INFO - Epoch 155  test accuracy: 0.869859  meanIOU: 0.519793
+2022-06-23 14:20:40,527 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 14:20:40,527 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 14:37:46,758 - pointnet2 - INFO - Epoch 156  test accuracy: 0.870855  meanIOU: 0.523929
+2022-06-23 14:37:46,817 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 14:37:46,817 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 14:54:34,767 - pointnet2 - INFO - Epoch 157  test accuracy: 0.868172  meanIOU: 0.520240
+2022-06-23 14:54:34,800 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 14:54:34,800 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 15:10:52,166 - pointnet2 - INFO - Epoch 158  test accuracy: 0.868250  meanIOU: 0.516479
+2022-06-23 15:10:52,208 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 15:10:52,208 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 15:27:08,817 - pointnet2 - INFO - Epoch 159  test accuracy: 0.868112  meanIOU: 0.518136
+2022-06-23 15:27:08,845 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 15:27:08,845 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 15:43:44,321 - pointnet2 - INFO - Epoch 160  test accuracy: 0.869703  meanIOU: 0.524002
+2022-06-23 15:43:44,365 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 15:43:44,365 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 16:00:14,272 - pointnet2 - INFO - Epoch 161  test accuracy: 0.869283  meanIOU: 0.525795
+2022-06-23 16:00:14,318 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 16:00:14,318 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 16:17:06,681 - pointnet2 - INFO - Epoch 162  test accuracy: 0.869317  meanIOU: 0.516569
+2022-06-23 16:17:06,744 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 16:17:06,744 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 16:33:36,964 - pointnet2 - INFO - Epoch 163  test accuracy: 0.868363  meanIOU: 0.518894
+2022-06-23 16:33:36,976 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 16:33:36,976 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 16:50:06,482 - pointnet2 - INFO - Epoch 164  test accuracy: 0.868132  meanIOU: 0.517195
+2022-06-23 16:50:06,496 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 16:50:06,496 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 17:06:50,909 - pointnet2 - INFO - Epoch 165  test accuracy: 0.870506  meanIOU: 0.523832
+2022-06-23 17:06:50,921 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 17:06:50,921 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 17:23:18,491 - pointnet2 - INFO - Epoch 166  test accuracy: 0.866637  meanIOU: 0.521421
+2022-06-23 17:23:18,526 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 17:23:18,526 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 17:39:44,050 - pointnet2 - INFO - Epoch 167  test accuracy: 0.870183  meanIOU: 0.526576
+2022-06-23 17:39:44,068 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 17:39:44,068 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 17:56:48,652 - pointnet2 - INFO - Epoch 168  test accuracy: 0.869966  meanIOU: 0.524082
+2022-06-23 17:56:48,715 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 17:56:48,715 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 18:13:48,033 - pointnet2 - INFO - Epoch 169  test accuracy: 0.870766  meanIOU: 0.523060
+2022-06-23 18:13:48,051 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 18:13:48,051 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 18:30:49,477 - pointnet2 - INFO - Epoch 170  test accuracy: 0.869151  meanIOU: 0.525373
+2022-06-23 18:30:49,523 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 18:30:49,523 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 18:47:34,803 - pointnet2 - INFO - Epoch 171  test accuracy: 0.869995  meanIOU: 0.522756
+2022-06-23 18:47:34,838 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 18:47:34,838 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 19:04:23,893 - pointnet2 - INFO - Epoch 172  test accuracy: 0.869987  meanIOU: 0.520039
+2022-06-23 19:04:23,915 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 19:04:23,915 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 19:21:20,328 - pointnet2 - INFO - Epoch 173  test accuracy: 0.870282  meanIOU: 0.531203
+2022-06-23 19:21:20,364 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 19:21:20,364 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 19:38:20,155 - pointnet2 - INFO - Epoch 174  test accuracy: 0.870063  meanIOU: 0.520337
+2022-06-23 19:38:20,184 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 19:38:20,184 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 19:55:43,220 - pointnet2 - INFO - Epoch 175  test accuracy: 0.868772  meanIOU: 0.518854
+2022-06-23 19:55:43,251 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 19:55:43,252 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 20:12:56,311 - pointnet2 - INFO - Epoch 176  test accuracy: 0.869850  meanIOU: 0.521389
+2022-06-23 20:12:56,331 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 20:12:56,331 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 20:29:41,150 - pointnet2 - INFO - Epoch 177  test accuracy: 0.869871  meanIOU: 0.521416
+2022-06-23 20:29:41,170 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 20:29:41,170 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 20:46:52,036 - pointnet2 - INFO - Epoch 178  test accuracy: 0.871587  meanIOU: 0.525850
+2022-06-23 20:46:52,054 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 20:46:52,055 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 21:03:59,835 - pointnet2 - INFO - Epoch 179  test accuracy: 0.870671  meanIOU: 0.521409
+2022-06-23 21:03:59,841 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 21:03:59,841 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 21:20:37,512 - pointnet2 - INFO - Epoch 180  test accuracy: 0.869944  meanIOU: 0.521255
+2022-06-23 21:20:37,567 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 21:20:37,568 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 21:37:09,420 - pointnet2 - INFO - Epoch 181  test accuracy: 0.870698  meanIOU: 0.522793
+2022-06-23 21:37:09,467 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 21:37:09,468 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 21:54:10,384 - pointnet2 - INFO - Epoch 182  test accuracy: 0.869597  meanIOU: 0.521429
+2022-06-23 21:54:10,416 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 21:54:10,417 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 22:10:50,467 - pointnet2 - INFO - Epoch 183  test accuracy: 0.868496  meanIOU: 0.521416
+2022-06-23 22:10:50,528 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 22:10:50,529 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 22:27:28,041 - pointnet2 - INFO - Epoch 184  test accuracy: 0.869255  meanIOU: 0.521879
+2022-06-23 22:27:28,057 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 22:27:28,058 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 22:44:46,021 - pointnet2 - INFO - Epoch 185  test accuracy: 0.869455  meanIOU: 0.521214
+2022-06-23 22:44:46,058 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 22:44:46,059 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 23:01:29,268 - pointnet2 - INFO - Epoch 186  test accuracy: 0.869660  meanIOU: 0.523887
+2022-06-23 23:01:29,288 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 23:01:29,289 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 23:18:06,780 - pointnet2 - INFO - Epoch 187  test accuracy: 0.870402  meanIOU: 0.525025
+2022-06-23 23:18:06,782 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 23:18:06,782 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 23:34:39,080 - pointnet2 - INFO - Epoch 188  test accuracy: 0.869881  meanIOU: 0.522107
+2022-06-23 23:34:39,117 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 23:34:39,117 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-23 23:51:46,290 - pointnet2 - INFO - Epoch 189  test accuracy: 0.869024  meanIOU: 0.518059
+2022-06-23 23:51:46,301 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-23 23:51:46,302 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 00:08:14,256 - pointnet2 - INFO - Epoch 190  test accuracy: 0.869034  meanIOU: 0.515487
+2022-06-24 00:08:14,259 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 00:08:14,259 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 00:24:41,899 - pointnet2 - INFO - Epoch 191  test accuracy: 0.869397  meanIOU: 0.516768
+2022-06-24 00:24:41,918 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 00:24:41,919 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 00:41:39,514 - pointnet2 - INFO - Epoch 192  test accuracy: 0.871241  meanIOU: 0.524518
+2022-06-24 00:41:39,542 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 00:41:39,542 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 00:58:09,737 - pointnet2 - INFO - Epoch 193  test accuracy: 0.869613  meanIOU: 0.519168
+2022-06-24 00:58:09,751 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 00:58:09,751 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 01:14:58,037 - pointnet2 - INFO - Epoch 194  test accuracy: 0.870372  meanIOU: 0.522134
+2022-06-24 01:14:58,064 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 01:14:58,065 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 01:31:26,896 - pointnet2 - INFO - Epoch 195  test accuracy: 0.869604  meanIOU: 0.520640
+2022-06-24 01:31:26,912 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 01:31:26,912 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 01:48:13,370 - pointnet2 - INFO - Epoch 196  test accuracy: 0.870851  meanIOU: 0.523021
+2022-06-24 01:48:13,385 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 01:48:13,385 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 02:05:19,185 - pointnet2 - INFO - Epoch 197  test accuracy: 0.869081  meanIOU: 0.523231
+2022-06-24 02:05:19,218 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 02:05:19,219 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 02:21:56,253 - pointnet2 - INFO - Epoch 198  test accuracy: 0.869700  meanIOU: 0.521746
+2022-06-24 02:21:56,295 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 02:21:56,296 - pointnet2 - INFO - Best meanIOU is: 0.53181
+2022-06-24 02:38:29,036 - pointnet2 - INFO - Epoch 199  test accuracy: 0.869708  meanIOU: 0.520022
+2022-06-24 02:38:29,055 - pointnet2 - INFO - Best accuracy is: 0.87223
+2022-06-24 02:38:29,055 - pointnet2 - INFO - Best meanIOU is: 0.53181

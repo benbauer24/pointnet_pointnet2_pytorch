@@ -1,0 +1,23 @@
+2022-05-26 11:41:26,774 - pointnet2 - INFO - ---------------------------------------------------EVAL---------------------------------------------------
+2022-05-26 11:41:26,783 - pointnet2 - INFO - PARAMETER ...
+2022-05-26 11:41:26,784 - pointnet2 - INFO - Namespace(batchsize=12, checkpoint='./experiment/pointnet2SemSeg-2022-05-26_05-29/checkpoints/pointnet2_004_0.8348.pth', gpu='0', model_name='pointnet2', multi_gpu=None, workers=4)
+2022-05-26 11:41:26,813 - pointnet2 - INFO - Load dataset ...
+2022-05-26 11:42:04,752 - pointnet2 - INFO - Load CheckPoint
+2022-05-26 11:42:09,221 - pointnet2 - INFO - Start evaluating...
+2022-05-26 11:47:24,509 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.249302
+bookcase    0.402375
+ceiling     0.899504
+chair       0.560962
+clutter     0.450642
+column      0.000000
+door        0.300521
+floor       0.958251
+sofa        0.094837
+table       0.620190
+wall        0.707020
+window      0.343840
+Name: mean_iou, dtype: float64
+2022-05-26 11:47:24,527 - pointnet2 - INFO - Test accuracy: 0.834315  meanIOU: 0.429803
+2022-05-26 11:47:24,527 - pointnet2 - INFO - End of evaluation...

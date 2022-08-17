@@ -1,0 +1,80 @@
+2022-06-21 14:22:17,210 - pointnet2 - INFO - ---------------------------------------------------TRANING---------------------------------------------------
+2022-06-21 14:22:17,211 - pointnet2 - INFO - PARAMETER ...
+2022-06-21 14:22:17,211 - pointnet2 - INFO - Namespace(batchsize=12, decay_rate=0.0001, epoch=6, gpu='0', learning_rate=0.001, model_name='pointnet2', multi_gpu=None, optimizer='Adam', pretrain=None, workers=4)
+2022-06-21 14:22:50,927 - pointnet2 - INFO - Training from scratch
+2022-06-21 14:41:10,109 - pointnet2 - INFO - Epoch 0  test accuracy: 0.790452  meanIOU: 0.340989
+2022-06-21 14:41:10,291 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.000000
+bookcase    0.114547
+ceiling     0.886585
+chair       0.528855
+clutter     0.407671
+column      0.000000
+door        0.014539
+floor       0.944748
+sofa        0.000000
+table       0.599852
+wall        0.671236
+window      0.264827
+Name: mean_iou, dtype: float64
+2022-06-21 14:41:10,304 - pointnet2 - INFO - Save model..
+2022-06-21 14:41:10,305 - pointnet2 - INFO - Best accuracy is: 0.79045
+2022-06-21 14:41:10,305 - pointnet2 - INFO - Best meanIOU is: 0.34099
+2022-06-21 14:59:14,492 - pointnet2 - INFO - Epoch 1  test accuracy: 0.825256  meanIOU: 0.393838
+2022-06-21 14:59:14,726 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.000000
+bookcase    0.413171
+ceiling     0.886417
+chair       0.648986
+clutter     0.413486
+column      0.000000
+door        0.180482
+floor       0.959026
+sofa        0.001391
+table       0.529582
+wall        0.696043
+window      0.391307
+Name: mean_iou, dtype: float64
+2022-06-21 14:59:14,729 - pointnet2 - INFO - Save model..
+2022-06-21 14:59:14,730 - pointnet2 - INFO - Best accuracy is: 0.82526
+2022-06-21 14:59:14,730 - pointnet2 - INFO - Best meanIOU is: 0.39384
+2022-06-21 15:17:24,891 - pointnet2 - INFO - Epoch 2  test accuracy: 0.827195  meanIOU: 0.403083
+2022-06-21 15:17:25,065 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.095895
+bookcase    0.375708
+ceiling     0.912553
+chair       0.533788
+clutter     0.458773
+column      0.000000
+door        0.107933
+floor       0.954670
+sofa        0.213916
+table       0.629159
+wall        0.696679
+window      0.261003
+Name: mean_iou, dtype: float64
+2022-06-21 15:17:25,068 - pointnet2 - INFO - Save model..
+2022-06-21 15:17:25,069 - pointnet2 - INFO - Best accuracy is: 0.82720
+2022-06-21 15:17:25,069 - pointnet2 - INFO - Best meanIOU is: 0.40308
+2022-06-21 15:35:41,245 - pointnet2 - INFO - Epoch 3  test accuracy: 0.843615  meanIOU: 0.440124
+2022-06-21 15:35:41,469 - pointnet2 - INFO - Category_IOU
+beam        0.000000
+board       0.137660
+bookcase    0.436970
+ceiling     0.905047
+chair       0.475916
+clutter     0.448782
+column      0.000000
+door        0.282884
+floor       0.960898
+sofa        0.293727
+table       0.646117
+wall        0.710984
+window      0.422628
+Name: mean_iou, dtype: float64
+2022-06-21 15:35:41,472 - pointnet2 - INFO - Save model..
+2022-06-21 15:35:41,472 - pointnet2 - INFO - Best accuracy is: 0.84362
+2022-06-21 15:35:41,472 - pointnet2 - INFO - Best meanIOU is: 0.44012

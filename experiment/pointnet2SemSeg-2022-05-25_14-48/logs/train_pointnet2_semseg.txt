@@ -1,4 +1,0 @@
-2022-05-25 14:48:56,516 - pointnet2 - INFO - ---------------------------------------------------TRANING---------------------------------------------------
-2022-05-25 14:48:56,517 - pointnet2 - INFO - PARAMETER ...
-2022-05-25 14:48:56,517 - pointnet2 - INFO - Namespace(batchsize=12, decay_rate=0.0001, epoch=1, gpu='0', learning_rate=0.001, model_name='pointnet2', multi_gpu=None, optimizer='Adam', pretrain=None, workers=4)
-2022-05-25 14:51:47,560 - pointnet2 - INFO - Training from scratch
